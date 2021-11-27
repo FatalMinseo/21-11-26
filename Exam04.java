@@ -2,12 +2,12 @@
 public class Exam04 {
 
 	public static void main(String[] args) {
-		// ¿©·¯°¡Áö ÀÚ·áÇü
-		// Java¿¡¼­ ÀÚ·áÇüÀº Å©°Ô µÎ°¡Áö·Î ³ª´¶´Ù
-		// 1. ±âº»ÀÚ·áÇü 2. ·¹ÆÛ·±½º ÀÚ·áÇü
-		// - ±âº»ÀÚ·áÇü
-		// 1. Á¤¼öÇü (byte, short, int, long)
-		// byte - 1byte(-128~127ÀÎ Á¤¼ö)
+		// ì—¬ëŸ¬ê°€ì§€ ìë£Œí˜•
+		// Javaì—ì„œ ìë£Œí˜•ì€ í¬ê²Œ ë‘ê°€ì§€ë¡œ ë‚˜ë‰œë‹¤
+		// 1. ê¸°ë³¸ìë£Œí˜• 2. ë ˆí¼ëŸ°ìŠ¤ ìë£Œí˜•
+		// - ê¸°ë³¸ìë£Œí˜•
+		// 1. ì •ìˆ˜í˜• (byte, short, int, long)
+		// byte - 1byte(-128~127ì¸ ì •ìˆ˜)
 		byte num1 = 127;
 		// short - 2byte
 		short num2 = 5000;
@@ -16,24 +16,24 @@ public class Exam04 {
 		// long - 8byte
 		long num4 = 222222222;
 		
-		// 2. ½Ç¼öÇü(float, double)
+		// 2. ì‹¤ìˆ˜í˜•(float, double)
 		// float - 4byte
-		// Java¿¡¼­ ½Ç¼öÇüÀº ±âº»ÀûÀ¸·Î Double·Î ÀÎ½ÄÇÑ´Ù
+		// Javaì—ì„œ ì‹¤ìˆ˜í˜•ì€ ê¸°ë³¸ì ìœ¼ë¡œ Doubleë¡œ ì¸ì‹í•œë‹¤
 		float num5 = 103.44f;
 		// float num5 = (float)10.4;
 		
 		// double - 8byte;
 		double num7 = 2257.1235;
 		
-		// 3. ³í¸®Çü (boolean)
+		// 3. ë…¼ë¦¬í˜• (boolean)
 		// boolean - 1byte
 		boolean isCheck = true;
 		isCheck = false;
 		
-		// 4. ¹®ÀÚÇü (char)
+		// 4. ë¬¸ìí˜• (char)
 		// char - 2byte
 		char text = 'A';
-		text = '°¡';
+		text = 'ê°€';
 		
 		char test = 'A';
 		int num10 = test;
@@ -41,5 +41,4 @@ public class Exam04 {
 
 
 	}
-
 }
